@@ -39,6 +39,7 @@
 	- Entrevista com especialista
 	- Exercício de clareza
 	- Engenharia reversa propriamente dita
+- CoT
 
 ## Prompts
 1. Estrutura de um prompt
@@ -59,3 +60,4 @@
 - Notebook LM
 - Manus
 - Perplexity
+
