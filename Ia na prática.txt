@@ -1,0 +1,61 @@
+# Ia na prática
+
+## Trajetória
+
+- 2019 - Curso de produtividade e contato com automações
+- 2020 - Começo ajudar empresa familiar com implementação tecnológica
+- 2021 - Começo fazer freelances
+- 2022 - Migração para IA
+- 2024 - Começa a Fluxo
+- 2025 - Graduação em IA
+       - Pós em Aprendizado de Máquina
+       - Pós em Engenharia de Software
+       - Pós em Gerenciamento de Infraestrutura Tecnologia
+
+## Temos usado IA?
+- Como vocês tem usado IA?
+- Qual a opinião em relação ao uso?
+
+## Alguns conceitos básicos
+- Prompt
+- Modelos x Plataforma
+- Token
+- Janela de contexto
+- Agente X Assistente
+
+## Tipos de interações
+- Interações Simples (conversas)
+- Interações Complexas (melhores prompts)
+- Assistente
+
+## E como aplico na prática?
+- LLMs são mais potentes com especialistas
+- Simples comando x Processos
+- Engenharia reversa
+
+## Casos de uso
+- Processos
+- Engenharia reversa:
+	- Entrevista com especialista
+	- Exercício de clareza
+	- Engenharia reversa propriamente dita
+
+## Prompts
+1. Estrutura de um prompt
+	- Persona
+	- Objetivo
+	- Contexto
+	- Exemplo
+	- Formato de saída
+	- Tom de voz
+2. Descreva seu processo
+3. Use Markdown
+
+## Ferramentas para Testar
+- ChatGpt
+- Gemini
+- Gamma
+- Google Studio
+- Notebook LM
+- Manus
+- Perplexity
