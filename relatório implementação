@@ -1,0 +1,40 @@
+# RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+Data: 01/12/2025
+Empresa: Abstergo Industries
+Responsável: Arquiteto de Soluções Cloud AWS
+
+## Introdução
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por Arquiteto de Soluções Cloud AWS. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos.
+
+## Descrição do Projeto
+O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
+
+Etapa 1: 
+- **Amazon EC2 (Elastic Compute Cloud) com Auto Scaling**
+- **Foco da ferramenta:** Substituição de Datacenter Físico e Elasticidade de Computação.
+- **Descrição de caso de uso:** Migração dos servidores físicos legados (que geram altos custos de energia, refrigeração e manutenção de hardware) para instâncias virtuais na nuvem. A implementação utilizará *Spot Instances* para cargas de trabalho não críticas (com até 90% de desconto) e *Auto Scaling Groups* para garantir que a empresa pague apenas pelos recursos ativos durante o horário comercial, desligando ou reduzindo a capacidade automaticamente em períodos de inatividade (noites e finais de semana).
+
+Etapa 2: 
+- **Amazon S3 (Simple Storage Service) Intelligent-Tiering**
+- **Foco da ferramenta:** Otimização de Armazenamento e Backups.
+- **Descrição de caso de uso:** Substituição da infraestrutura de armazenamento local (SAN/NAS) e fitas de backup. O serviço será configurado na classe *Intelligent-Tiering*, que utiliza inteligência artificial para monitorar padrões de acesso e mover automaticamente dados que não são acessados frequentemente para camadas de armazenamento mais baratas (Archive ou Deep Archive), reduzindo drasticamente o custo de retenção de dados a longo prazo sem intervenção manual.
+
+Etapa 3: 
+- **AWS Budgets & Cost Explorer**
+- **Foco da ferramenta:** Governança Financeira e Controle de Gastos.
+- **Descrição de caso de uso:** Implementação de uma cultura de *FinOps* desde o dia zero. O AWS Budgets será configurado para enviar alertas via e-mail ou SMS caso os custos projetados excedam o orçamento definido pela diretoria. O Cost Explorer será utilizado para identificar desperdícios e recursos ociosos, garantindo transparência total sobre onde cada centavo está sendo investido e prevenindo surpresas na fatura mensal.
+
+## Conclusão
+A implementação de ferramentas na empresa Abstergo Industries tem como esperado a eliminação de custos fixos de hardware (CapEx) em favor de custos variáveis operacionais (OpEx), flexibilidade para escalar recursos conforme a demanda e segurança automatizada dos dados, o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+
+## Anexos
+
+- Documentação da Arquitetura de Referência (Diagrama de Rede VPC).
+- Tabela comparativa de TCO (On-Premise vs. AWS).
+- Guia de Boas Práticas de Segurança (IAM e Grupos de Segurança).
+- Manual de Acesso ao Painel de Custos para a Diretoria Financeira.
+
+Assinatura do Responsável pelo Projeto:
+
+*Arquiteto de Soluções Cloud AWS*
